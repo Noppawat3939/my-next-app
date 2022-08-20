@@ -1,0 +1,15 @@
+.nav_container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 3rem;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    list-style: none;
+}
