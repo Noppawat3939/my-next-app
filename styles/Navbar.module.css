@@ -1,10 +1,10 @@
 .nav_container {
     display: flex;
     justify-content: flex-end;
-    padding: 1rem 3rem;
-    position: sticky;
+    /* position: fixed; */
+    width: 100%;
     top: 0;
-    background: white;
+    left: 0;
 }
 
 .nav_list {
