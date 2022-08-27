@@ -1,10 +1,18 @@
 .nav_container {
     display: flex;
     justify-content: flex-end;
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
+    padding: 15px 30px;
+}
+
+.nav_container_active {
+    position: fixed;
+    transition: .75s ease-in-out;
+    width: 100%;
+    top: -100%;
 }
 
 .nav_list {
@@ -12,4 +20,15 @@
     align-items: center;
     column-gap: 2rem;
     list-style: none;
+}
+
+.nav_list a {
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: .3s ease-in;
+}
+
+.nav_list a:hover {
+    color: #FF7F3F;
 }
