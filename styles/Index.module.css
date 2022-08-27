@@ -1,0 +1,18 @@
+.index_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px ,1fr));
+    width: 100%;
+    max-width: 1200px;
+    margin: 2rem auto 0;
+    gap: 2rem 3rem;
+}
+
+.index_title {
+    text-align: center;
+    color: #FF7F3F;
+}
+
+.index_title span {
+    color: initial;
+    letter-spacing: 2px;
+}

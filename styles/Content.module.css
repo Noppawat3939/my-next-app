@@ -1,0 +1,17 @@
+.content_container {
+    border-radius: 8px;
+    padding: 14px 8px;
+   transition: .3s ease-in;
+}
+
+.content_container:hover {
+    box-shadow: 0 0 6px 3px rgba(0, 0, 0, 0.065);
+    cursor: pointer;
+}
+
+.content_title {
+    color: #1CD6CE;
+    margin-bottom: 10px;
+    line-height: 20px;
+    font-weight: 600;
+}
